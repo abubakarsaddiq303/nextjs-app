@@ -17,10 +17,7 @@ const Hero = () => {
           <div className="hero-buttons">
             <button className="btn-1">Join</button>
             <button className="btn-2">
-              <Link
-                href="https://covalent-eight.vercel.app/assets/litepaper.pdf"
-                target="_blank"
-              >
+              <Link href="https://covalent-eight.vercel.app/assets/litepaper.pdf">
                 <a> Litepaper</a>
               </Link>
             </button>

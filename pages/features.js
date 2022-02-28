@@ -20,7 +20,7 @@ const Features = () => {
       <div>
         <div className="core-container">
           <div className="core-row">
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/unified.png" width={80} height={80} />
               </div>
@@ -33,7 +33,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/realTime.png" width={80} height={80} />
               </div>
@@ -46,7 +46,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/secure.png" width={80} height={80} />
               </div>
@@ -59,7 +59,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/bots.png" width={80} height={80} />
               </div>
@@ -72,7 +72,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/integration.png" width={80} height={80} />
               </div>
@@ -85,7 +85,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/dexxxx.png" width={80} height={80} />
               </div>
@@ -98,7 +98,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div id="cols" class="mb-5 col-md-4 col-sm-12">
+            <div id="cols" className="mb-5 col-md-4 col-sm-12">
               <div className="card1">
                 <Image src="/assist.png" width={80} height={80} />
               </div>

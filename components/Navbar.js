@@ -13,10 +13,7 @@ const Navbar = () => {
         <div className="nav-items">
           <ul>
             <li className="Listborder">
-              <a
-                href="https://covalent-eight.vercel.app/assets/litepaper.pdf"
-                target="_blank"
-              >
+              <a href="https://covalent-eight.vercel.app/assets/litepaper.pdf">
                 Pitch Deck
               </a>
             </li>
@@ -31,9 +28,9 @@ const Navbar = () => {
             </li>
 
             <li>
-              <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
+              <div className="dropdown">
+                <button className="dropbtn">Dropdown</button>
+                <div className="dropdown-content">
                   <a href="#section4">FAQs</a>
                   <a href="#section5">RoadMap</a>
                 </div>

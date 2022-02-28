@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-1">
         <div className="container1">
           <div className="con-row">
-            <div class="col-12">
+            <div className="col-12">
               <div className="footer-logo">
                 <Image src="/logo.png" width={250} height={150} />
               </div>
@@ -76,12 +76,12 @@ const Footer = () => {
 
         <div className="container-2">
           <div className="con-row2">
-            <div class="mt-5 col-md-3 col-sm-6">
+            <div className="mt-5 col-md-3 col-sm-6">
               <h5 className="heading">Community</h5>
               <div className="mb-5 con2-row">
-                <div class="col-lg col-md-8 col-sm-12">
+                <div className="col-lg col-md-8 col-sm-12">
                   <div className="social-icon">
-                    <Link href="http://twitter.com" target="_blank">
+                    <Link href="http://twitter.com">
                       <svg
                         width="30px"
                         height="30px"
@@ -99,7 +99,7 @@ const Footer = () => {
                   </div>
 
                   <div className="social-icon">
-                    <Link href="https://discord.com/" target="_blank">
+                    <Link href="https://discord.com/">
                       <svg
                         width="30px"
                         height="30px"
@@ -117,7 +117,7 @@ const Footer = () => {
                   </div>
 
                   <div className="social-icon">
-                    <Link href="https://facebook.com/" target="_blank">
+                    <Link href="https://facebook.com/">
                       <svg
                         width="30px"
                         height="30px"
@@ -135,7 +135,7 @@ const Footer = () => {
                   </div>
 
                   <div className="social-icon">
-                    <Link href="http://twitter.com" target="_blank">
+                    <Link href="http://twitter.com">
                       <svg
                         width="30px"
                         height="30px"
