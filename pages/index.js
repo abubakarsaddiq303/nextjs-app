@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer from "../components/Footers";
 import Coverage from "../components/Coverage";
 import Faqs from "../components/Faqs";
 import Features from "../components/Features";
