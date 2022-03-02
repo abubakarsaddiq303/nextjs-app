@@ -136,7 +136,7 @@ body {
 
 /*Start SCroll Bar CSS  */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 12px;
 }
 
 /* Track */
