@@ -20,6 +20,7 @@
   align-items: center;
   letter-spacing: 2px;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .ul {
