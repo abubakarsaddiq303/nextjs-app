@@ -6,7 +6,7 @@ const Team = () => {
       <h1 className={styles.teamh}>VENTURE</h1>
       <div className={styles.theteam}>
         <div className={styles.teamperson1}>
-          <Image src="/Haider.png" width={250} height={250} />
+          <Image src="/haider.png" width={250} height={250} />
           <br />
           GHULAM HAIDER
         </div>
