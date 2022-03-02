@@ -1,20 +1,32 @@
-import Footer from "../components/Footers";
-import Coverage from "../components/Coverage";
-import Faqs from "../components/Faqs";
-import Features from "../components/Features";
 import Hero from "../components/Hero";
-import Roadmap from "../components/Roadmap";
+
 import Team from "../components/Team";
+
+import Features from "../components/Features";
+
+import Coverage from "../components/Coverage";
+
+import Roadmap from "../components/Roadmap";
+
+import Faqs from "../components/Faqs";
+
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div>
       <Hero />
+
       <Team />
+
       <Features />
+
       <Coverage />
+
       <Roadmap />
+
       <Faqs />
+
       <Footer />
 
       <div className="scroll">
