@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import styles from "../styles/Faqs.module.css";
 
 const Faqs = () => {
   const [show1, setShow1] = useState(false);
@@ -8,14 +9,18 @@ const Faqs = () => {
   const [show4, setShow4] = useState(false);
   const [show5, setShow5] = useState(false);
   const [show6, setShow6] = useState(false);
-  return (
-    <div className="faqs" id="section4">
-      <h1 className="faqs-h">FAQs</h1>
 
-      <div className="faqs-main">
+  return (
+    <div className={styles.faqs} id="section4">
+      <h1 className={styles.faqsh}>FAQs</h1>
+
+      <div className={styles.faqsmain}>
         <div>
-          <div className="Q1" onClick={() => setShow1((show1) => !show1)}>
-            <p className="Q1-p">How are we different from others</p>
+          <div
+            className={styles.Q1}
+            onClick={() => setShow1((show1) => !show1)}
+          >
+            <p className={styles.Q1p}>How are we different from others</p>
 
             <svg
               width="24px"
@@ -32,7 +37,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show1 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam
@@ -41,8 +46,11 @@ const Faqs = () => {
         </div>
 
         <div>
-          <div className="Q1" onClick={() => setShow2((show2) => !show2)}>
-            <p className="Q1-p">
+          <div
+            className={styles.Q1}
+            onClick={() => setShow2((show2) => !show2)}
+          >
+            <p className={styles.Q1p}>
               How are we different from others and how do we work,what are our
               methods
             </p>
@@ -62,7 +70,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show2 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam
@@ -71,8 +79,11 @@ const Faqs = () => {
         </div>
 
         <div>
-          <div className="Q1" onClick={() => setShow3((show3) => !show3)}>
-            <p className="Q1-p">How are we different from others</p>
+          <div
+            className={styles.Q1}
+            onClick={() => setShow3((show3) => !show3)}
+          >
+            <p className={styles.Q1p}>How are we different from others</p>
 
             <svg
               width="24px"
@@ -89,7 +100,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show3 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam
@@ -98,8 +109,11 @@ const Faqs = () => {
         </div>
 
         <div>
-          <div className="Q1" onClick={() => setShow4((show4) => !show4)}>
-            <p className="Q1-p">How are we different from others</p>
+          <div
+            className={styles.Q1}
+            onClick={() => setShow4((show4) => !show4)}
+          >
+            <p className={styles.Q1p}>How are we different from others</p>
 
             <svg
               width="24px"
@@ -116,7 +130,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show4 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam
@@ -125,8 +139,11 @@ const Faqs = () => {
         </div>
 
         <div>
-          <div className="Q1" onClick={() => setShow5((show5) => !show5)}>
-            <p className="Q1-p">How are we different from others</p>
+          <div
+            className={styles.Q1}
+            onClick={() => setShow5((show5) => !show5)}
+          >
+            <p className={styles.Q1p}>How are we different from others</p>
 
             <svg
               width="24px"
@@ -143,7 +160,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show5 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam
@@ -152,8 +169,11 @@ const Faqs = () => {
         </div>
 
         <div>
-          <div className="Q1" onClick={() => setShow6((show6) => !show6)}>
-            <p className="Q1-p">How are we different from others</p>
+          <div
+            className={styles.Q1}
+            onClick={() => setShow6((show6) => !show6)}
+          >
+            <p className={styles.Q1p}>How are we different from others</p>
 
             <svg
               width="24px"
@@ -170,7 +190,7 @@ const Faqs = () => {
             </svg>
           </div>
           {show6 && (
-            <p className="faqs-p">
+            <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim
               ad minim veniam

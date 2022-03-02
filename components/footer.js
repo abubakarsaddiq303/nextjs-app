@@ -1,86 +1,93 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "../styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <div className="footer-main">
-      <div className="footer-1">
-        <div className="container1">
-          <div className="con-row">
-            <div className="col-12">
-              <div className="footer-logo">
-                <Image src="/logo.png" width={250} height={150} />
+    <div className={styles.footermain}>
+      <div className={styles.footer1}>
+        <div className={styles.container1}>
+          <div className={styles.conrow}>
+            <div className={styles.col12}>
+              <div className={styles.footerlogo}>
+                <Image src="/logo.png" width={300} height={200} />
               </div>
             </div>
 
             <div className="mt-5 col-md-4 col-sm-6 col-7">
               <div>
-                <h5 className="footer-h5">Contact Us</h5>
-                <div className="number">
-                  <a className="num">+9233333333</a>
+                <h5 className={styles.footerh5}>Contact Us</h5>
+                <div className={styles.number}>
+                  <a className={styles.num}>+9233333333</a>
                 </div>
-                <div className="email">
-                  <a className="emails">abc@.com</a>
+
+                <div className={styles.email}>
+                  <a className={styles.emails}>abc@.com</a>
                 </div>
               </div>
             </div>
 
             <div className="mt-5 col-md-4 col-sm-6 col-5">
               <div>
-                <h5 className="footer-h5">Contact Us</h5>
-                <div className="number">
-                  <a className="num">+9233333333</a>
+                <h5 className={styles.footerh5}>Contact Us</h5>
+                <div className={styles.number}>
+                  <a className={styles.num}>+9233333333</a>
                 </div>
-                <div className="email">
-                  <a className="emails">abc@.com</a>
+
+                <div className={styles.email}>
+                  <a className={styles.emails}>abc@.com</a>
                 </div>
               </div>
             </div>
 
             <div className="mt-5 col-md-4 col-sm-6 col-7">
               <div>
-                <h5 className="footer-h5">Contact Us</h5>
-                <div className="number">
-                  <a className="num">+9233333333</a>
+                <h5 className={styles.footerh5}>Contact Us</h5>
+                <div className={styles.number}>
+                  <a className={styles.num}>+9233333333</a>
                 </div>
-                <div className="email">
-                  <a className="emails">abc@.com</a>
+
+                <div className={styles.email}>
+                  <a className={styles.emails}>abc@.com</a>
                 </div>
               </div>
             </div>
 
             <div className="mt-5 col-md-4 col-sm-6 col-5">
               <div>
-                <h5 className="footer-h5">Contact Us</h5>
-                <div className="number">
-                  <a className="num">+9233333333</a>
+                <h5 className={styles.footerh5}>Contact Us</h5>
+                <div className={styles.number}>
+                  <a className={styles.num}>+9233333333</a>
                 </div>
-                <div className="email">
-                  <a className="emails">abc@.com</a>
+
+                <div className={styles.email}>
+                  <a className={styles.emails}>abc@.com</a>
                 </div>
               </div>
             </div>
 
             <div className="mt-5 col-md-6 col-5">
               <div>
-                <h5 className="footer-h5">Contact Us</h5>
-                <div className="number">
-                  <a className="num">+9233333333</a>
+                <h5 className={styles.footerh5}>Contact Us</h5>
+                <div className={styles.number}>
+                  <a className={styles.num}>+9233333333</a>
                 </div>
-                <div className="email">
-                  <a className="emails">abc@.com</a>
+
+                <div className={styles.email}>
+                  <a className={styles.emails}>abc@.com</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container-2">
-          <div className="con-row2">
+        <div className={styles.container2}>
+          <div className={styles.conrow2}>
             <div className="mt-5 col-md-3 col-sm-6">
-              <h5 className="heading">Community</h5>
+              <h5 className={styles.heading}>Community</h5>
               <div className="mb-5 con2-row">
                 <div className="col-lg col-md-8 col-sm-12">
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="http://twitter.com">
                       <svg
                         width="30px"
@@ -98,7 +105,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="https://discord.com/">
                       <svg
                         width="30px"
@@ -116,7 +123,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="https://facebook.com/">
                       <svg
                         width="30px"
@@ -134,7 +141,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="http://twitter.com">
                       <svg
                         width="30px"
@@ -152,7 +159,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="http://youtube.com" target="_blank">
                       <svg
                         width="30px"
@@ -170,7 +177,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="https://snapchat.com/" target="_blank">
                       <svg
                         width="30px"
@@ -188,7 +195,7 @@ const Footer = () => {
                     </Link>
                   </div>
 
-                  <div className="social-icon">
+                  <div className={styles.socialicon}>
                     <Link href="https://linkedin.com/">
                       <svg
                         width="30px"
@@ -212,7 +219,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-2">Copyrights © 2022 Covalent</div>
+      <div className={styles.footer2}>Copyrights © 2022 Covalent</div>
     </div>
   );
 };

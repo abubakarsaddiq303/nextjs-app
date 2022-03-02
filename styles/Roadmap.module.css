@@ -1,0 +1,100 @@
+.roadmap {
+  background-color: rgb(59, 35, 73);
+  background-image: linear-gradient(to top, black, rgb(59, 35, 73));
+  position: relative;
+  padding: 57px 0px;
+  text-align: center;
+  color: white;
+  margin: -2px 0px;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+.roadmaph {
+  text-align: center;
+  padding: 80px 0px;
+  font-size: 3rem;
+  color: rgb(255, 158, 68);
+  letter-spacing: 1px;
+}
+.roadmaptopics1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.topic1 {
+  width: 150px;
+}
+.topic2 {
+  width: 150px;
+}
+.topic3 {
+  margin-right: 100px;
+  width: 150px;
+}
+.roadmapimg {
+  width: 80%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 0px auto;
+  flex-direction: column;
+}
+
+.roadmaptopics2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.topicp1 {
+  width: 150px;
+  margin-right: 90px;
+}
+.topicp2 {
+  width: 150px;
+}
+.topicp3 {
+  width: 150px;
+}
+
+@media (max-width: 375px) {
+  .topic1 {
+    width: 80px;
+    font-size: x-small;
+  }
+  .topic2 {
+    width: 80px;
+    font-size: x-small;
+  }
+  .topic3 {
+    width: 80px;
+    font-size: x-small;
+    margin-right: 42px;
+  }
+
+  .roadmapimg {
+    width: 99%;
+    height: 10vh;
+  }
+
+  .topicp1 {
+    width: 80px;
+    margin-right: 0;
+    margin-left: 40px;
+    font-size: x-small;
+  }
+  .topicp2 {
+    width: 80px;
+    font-size: x-small;
+  }
+  .topicp3 {
+    width: 80px;
+    font-size: x-small;
+  }
+}
+@media (max-width: 1024px) {
+  .roadmapimg {
+    width: 99%;
+    height: 15vh;
+  }
+  .topicp1 {
+    margin-right: 0;
+  }
+}

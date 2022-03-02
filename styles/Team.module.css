@@ -1,0 +1,98 @@
+.team {
+  width: 100%;
+  margin: -5px 0px;
+  background: linear-gradient(to top, rgb(59, 35, 73), black);
+  padding-top: 10px;
+  color: white;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+.teamh {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 50px;
+  color: rgb(255, 158, 68);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin: 2rem auto;
+}
+.theteam {
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 7rem;
+}
+.teamperson1 {
+  width: 270px;
+  height: 270px;
+  max-width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  contain: content;
+  font-size: 1.5rem;
+}
+.teamperson2 {
+  width: 270px;
+  height: 270px;
+  max-width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  contain: content;
+  font-size: 1.5rem;
+}
+.teamperson3 {
+  width: 270px;
+  height: 270px;
+  max-width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  contain: content;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 375px) {
+  .theteam {
+    flex-direction: column;
+  }
+
+  .teamperson1 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+  .teamperson2 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+  .teamperson3 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 1024px) {
+  .theteam {
+    width: 100%;
+  }
+}

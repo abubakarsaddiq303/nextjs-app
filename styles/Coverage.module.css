@@ -1,0 +1,73 @@
+.coverage {
+  background-color: rgb(59, 35, 73);
+  background-image: linear-gradient(to top, rgb(59, 35, 73), black);
+  min-height: 100vh;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  font-family: Roboto, sans-serif;
+}
+.coverageh {
+  text-align: center;
+  padding: 70px 0px;
+  font-size: 3rem;
+  color: rgb(255, 158, 68);
+  letter-spacing: 1px;
+}
+.coveragemain {
+  width: 50%;
+  height: 405px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.coveragemainshow {
+  width: 50%;
+  height: 405px;
+  margin: 50px auto;
+  overflow-y: scroll;
+}
+.Mian1 {
+  margin: 40px 0;
+}
+.Main1h {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.Mian2 {
+  margin: 40px 0;
+}
+.Main2h {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.coveragebtn {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  background: transparent;
+  box-shadow: rgb(177 72 222 / 35%) 0px 8px 10px;
+  outline: rgb(255, 158, 68) solid 2px;
+}
+.btnbtn {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  .coveragemain {
+    width: 88%;
+  }
+  .coveragemainshow {
+    width: 88%;
+  }
+}
+@media (max-width: 1024px) {
+  .coverage {
+    min-height: 0;
+  }
+}

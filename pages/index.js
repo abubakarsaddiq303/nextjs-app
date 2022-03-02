@@ -1,14 +1,16 @@
-import Footer from "../components/footer";
-import Coverage from "./coverage";
-import Faqs from "./faqs";
-import Features from "./features";
-import Hero from "./hero";
-import Roadmap from "./roadmap";
-import Team from "./team";
+import Footer from "../components/Footer";
+import Coverage from "../components/Coverage";
+import Faqs from "../components/Faqs";
+import Features from "../components/Features";
+import Hero from "../components/Hero";
+import Roadmap from "../components/Roadmap";
+import Team from "../components/Team";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <div>
+      {/* <Header /> */}
       <Hero />
       <Team />
       <Features />

@@ -1,0 +1,40 @@
+.faqs {
+  width: 100%;
+  background: linear-gradient(to top, rgb(59, 35, 73), black);
+  padding: 20px 0px;
+  margin: -15px 0px;
+  position: relative;
+  color: white;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+.faqsh {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin: 4rem 0px;
+}
+.faqsmain {
+  width: 80%;
+  margin: 0px auto;
+}
+.Q1 {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Q1p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.faqsp {
+  display: block;
+  padding: 0px 20px;
+  animation: 0.2s ease-in 0s 1 normal none running dqYQst;
+  color: rgb(255, 158, 68);
+  font-size: 1rem;
+}

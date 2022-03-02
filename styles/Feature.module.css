@@ -1,0 +1,83 @@
+.corefeature {
+  width: 100%;
+  background: linear-gradient(to top, black, rgb(59, 35, 73));
+  padding-top: 10px;
+  margin: -1px 0px;
+  color: white;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+.coreH {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.coreHead1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+.coreHead2 {
+  color: rgb(255, 158, 68);
+}
+.corep {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.corecontainer {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.corerow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.card1 {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  filter: opacity(0.5) drop-shadow(gold 0px 0px 0px);
+  animation-name: imageAnimate;
+
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes imageAnimate {
+  0% {
+    transform: translatey(-20px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-20px);
+  }
+}
+.cardh {
+  text-align: center;
+  color: rgb(255, 158, 68);
+}
+.cardp {
+  text-align: center;
+  margin: 0px auto;
+}
+@media (max-width: 375px) {
+  .core-row {
+    flex-direction: column;
+  }
+}

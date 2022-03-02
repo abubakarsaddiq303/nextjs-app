@@ -1,0 +1,132 @@
+.footermain {
+  width: 100%;
+  background: linear-gradient(to top, black, rgb(59, 35, 73));
+  padding-top: 10px;
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
+}
+.footer1 {
+  border-bottom: 1px solid rgb(255, 158, 68);
+  padding: 48px 16px;
+  margin: auto;
+}
+.container1 {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem) !important;
+  padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.conrow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-top: 100px;
+}
+.col12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.footerlogo {
+  width: 20%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.footerh5 {
+  color: white;
+}
+.number {
+  margin-bottom: 10px;
+  color: #ff9e44;
+}
+.num {
+  text-decoration: none;
+  color: rgb(255, 158, 68);
+  cursor: pointer;
+  display: inline-block;
+  width: fit-content;
+}
+.email {
+  color: #ff9e44;
+}
+.emails {
+  text-decoration: none;
+  color: rgb(255, 158, 68);
+  cursor: pointer;
+  display: inline-block;
+  width: fit-content;
+}
+
+.container2 {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.conrow2 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.heading {
+  color: white;
+}
+
+.con2-row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(0.5 * var(--bs-gutter-x));
+}
+
+.col-lg {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6rem;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.socialicon {
+  margin-bottom: 1rem;
+  width: 4rem;
+}
+.footer2 {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 24px;
+}
+
+@media (max-width: 375px) {
+  .footerlogo {
+    width: 89%;
+  }
+}
+@media (max-width: 1024px) {
+  .footerlogo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,139 @@
+.hero {
+  width: 100%;
+  background: linear-gradient(to top, black, rgb(59, 35, 73));
+  padding-top: 20px;
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+}
+.herocontainers {
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 50px;
+  color: rgb(255, 158, 68);
+}
+.herol {
+  width: 50%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.herop {
+  width: 70%;
+  text-align: center;
+}
+.herobuttons {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px;
+}
+.btn1 {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1.2rem;
+  background: linear-gradient(rgb(86, 60, 92), black);
+  box-shadow: rgb(177 72 222 / 35%) 0px 8px 10px;
+}
+.btn2 {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  background: transparent;
+  box-shadow: rgb(177 72 222 / 35%) 0px 8px 10px;
+  outline: rgb(255, 158, 68) solid 2px;
+}
+.a {
+  text-decoration: none;
+  color: white;
+}
+.a:hover {
+  color: white;
+}
+
+.heror {
+  width: 50%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.heroimg {
+  animation-name: imageAnimate;
+
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes imageAnimate {
+  0% {
+    transform: translatey(-20px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-20px);
+  }
+}
+
+@media (max-width: 375px) {
+  .herocontainers {
+    flex-direction: column;
+  }
+  .herobuttons {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .btn1 {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .btn2 {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .herop {
+    width: 120%;
+    text-align: left;
+    font-size: 22px;
+    word-spacing: 10px;
+  }
+  .herol {
+    width: 66%;
+  }
+  .heror {
+    width: 78%;
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 10224px) {
+  .herop {
+    width: 100%;
+  }
+  .herobuttons {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
