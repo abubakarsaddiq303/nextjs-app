@@ -12,9 +12,13 @@ import Faqs from "../components/Faqs";
 
 import Footer from "../components/Footer";
 
+// import Header from "../components/Header";
+
 export default function Home() {
   return (
     <div>
+      {/* <Header /> */}
+
       <Hero />
 
       <Team />
@@ -32,8 +36,8 @@ export default function Home() {
       <div className="scroll">
         <a href="#section">
           <svg
-            width="50px"
-            height="50px"
+            width="40px"
+            height="40px"
             viewBox="0 0 448 512"
             id="b80c53a0-fbf6-4494-bbaf-81c896ec0e14"
             data-name="Livello 1"

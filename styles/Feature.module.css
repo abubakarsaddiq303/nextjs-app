@@ -11,33 +11,33 @@
   font-family: Roboto, sans-serif;
 }
 
-.coreH {
+.core_h {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.coreHead1 {
+.core_head1 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 3rem;
 }
-.coreHead2 {
+.core_head2 {
   color: rgb(255, 158, 68);
 }
-.corep {
+.core_p {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
 }
-.corecontainer {
+.core_container {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
 }
-.corerow {
+.core_row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -68,16 +68,21 @@
     transform: translatey(-20px);
   }
 }
-.cardh {
+.card_h {
   text-align: center;
   color: rgb(255, 158, 68);
 }
-.cardp {
+.card_p {
   text-align: center;
   margin: 0px auto;
 }
+
 @media (max-width: 375px) {
-  .core-row {
-    flex-direction: column;
+  .core_p {
+    padding: 15px;
+  }
+  .core_container {
+    padding-left: var(--bs-gutter-x, 3.75rem);
   }
 }
+/* End CORE Feature CSS  */

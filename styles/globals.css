@@ -17,101 +17,10 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-/*Start CORE Feature CSS  */
-
-.corefeature {
-  width: 100%;
-  background: linear-gradient(to top, black, rgb(59, 35, 73));
-  padding-top: 10px;
-  margin: -1px 0px;
-  color: white;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  flex-direction: column;
-  font-family: Roboto, sans-serif;
-}
-
-.core-h {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.core-head1 {
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 3rem;
-}
-.core-head2 {
-  color: rgb(255, 158, 68);
-}
-.core-p {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  text-align: center;
-}
-.core-container {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-}
-.core-row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-.card1 {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  filter: opacity(0.5) drop-shadow(gold 0px 0px 0px);
-  animation-name: imageAnimate;
-
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-@keyframes imageAnimate {
-  0% {
-    transform: translatey(-20px);
-  }
-  50% {
-    transform: translatey(0px);
-  }
-  100% {
-    transform: translatey(-20px);
-  }
-}
-.card-h {
-  text-align: center;
-  color: rgb(255, 158, 68);
-}
-.card-p {
-  text-align: center;
-  margin: 0px auto;
-}
-/* End CORE Feature CSS  */
-
 .mt-5 {
   margin-top: 3rem !important;
 }
 
-.con2-row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(0.5 * var(--bs-gutter-x));
-}
 .col-lg {
   display: flex;
   flex-wrap: wrap;
@@ -120,6 +29,7 @@ body {
   align-content: flex-start;
 }
 
+/*======smooth scroll===========*/
 .scroll {
   position: fixed;
   width: 100%;
@@ -131,8 +41,9 @@ body {
   cursor: pointer;
   color: rgb(255, 158, 68);
 }
+/*====== End smooth scroll===========*/
 
-/*Start SCroll Bar CSS  */
+/*=======Start SCroll Bar CSS=========*/
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -147,13 +58,4 @@ body {
   background: #3b2349;
   border-radius: 10px;
 }
-/*End SCROLL BAR CSS  */
-
-@media (max-width: 375px) {
-  .core-p {
-    padding: 15px;
-  }
-  .core-container {
-    padding-left: var(--bs-gutter-x, 3.75rem);
-  }
-}
+/*========End SCROLL BAR CSS==============*/

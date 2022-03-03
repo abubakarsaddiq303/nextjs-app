@@ -1,6 +1,9 @@
 import Image from "next/image";
+
 import { useState } from "react";
+
 import styles from "../styles/Coverage.module.css";
+
 const Coverage = () => {
   const [show, setShow] = useState(false);
 
@@ -14,6 +17,7 @@ const Coverage = () => {
             rade over-the counter (OTC) crypto assets and tokens P2P via an
             integrated <br /> ESC (escrow smart contract) functionality.
           </h6>
+
           <Image src="/amb.png" width={500} height={110} />
         </div>
 

@@ -4,10 +4,15 @@ import styles from "../styles/Faqs.module.css";
 
 const Faqs = () => {
   const [show1, setShow1] = useState(false);
+
   const [show2, setShow2] = useState(false);
+
   const [show3, setShow3] = useState(false);
+
   const [show4, setShow4] = useState(false);
+
   const [show5, setShow5] = useState(false);
+
   const [show6, setShow6] = useState(false);
 
   return (
@@ -36,6 +41,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show1 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -69,6 +75,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show2 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -99,6 +106,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show3 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -129,6 +137,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show4 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -159,6 +168,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show5 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -189,6 +199,7 @@ const Faqs = () => {
               />
             </svg>
           </div>
+
           {show6 && (
             <p className={styles.faqsp}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

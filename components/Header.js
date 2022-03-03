@@ -10,17 +10,19 @@ const Header = () => {
         >
           <Image src="/logo.png" width={150} height={120} />
         </a>
+
         <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item active">
@@ -32,16 +34,19 @@ const Header = () => {
                 Home <span className="sr-only">(current)</span>
               </a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Features
               </a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Pricing
               </a>
             </li>
+
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -53,6 +58,7 @@ const Header = () => {
               >
                 Dropdown link
               </a>
+
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
@@ -60,9 +66,11 @@ const Header = () => {
                 <a className="dropdown-item" href="#">
                   Action
                 </a>
+
                 <a className="dropdown-item" href="#">
                   Another action
                 </a>
+
                 <a className="dropdown-item" href="#">
                   Something else here
                 </a>

@@ -10,11 +10,13 @@ const Team = () => {
           <br />
           GHULAM HAIDER
         </div>
+
         <div className={styles.teamperson2}>
           <Image src="/ikram.png" width={250} height={250} />
           <br />
           Dr. IKRAM ASHRAF
         </div>
+
         <div className={styles.teamperson3}>
           <Image src="/auth.png" width={250} height={250} />
           <br />
